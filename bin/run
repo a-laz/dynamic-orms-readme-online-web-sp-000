@@ -17,4 +17,4 @@ song.save
 
 puts DB[:conn].execute("SELECT * FROM songs")
 
-Song.find_by_name(Hello)
+Song.find_by_name("Hello")
